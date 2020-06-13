@@ -1,0 +1,38 @@
+﻿  hw2.cpp
+c:\users\kevin\desktop\hw2\hw2\Movie.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\kevin\desktop\hw2\hw2\Movie.h(15): error C2143: syntax error: missing ',' before '<'
+hw2.cpp(192): error C2660: 'Movie::calcAverage': function does not take 2 arguments
+  Movie.cpp
+c:\users\kevin\desktop\hw2\hw2\Movie.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\kevin\desktop\hw2\hw2\Movie.h(15): error C2143: syntax error: missing ',' before '<'
+Movie.cpp(41): error C2511: 'int Movie::calcAverage(const std::vector<Review,std::allocator<_Ty>> &,int)': overloaded member function not found in 'Movie'
+          with
+          [
+              _Ty=Review
+          ]
+  c:\users\kevin\desktop\hw2\hw2\Movie.h(4): note: see declaration of 'Movie'
+Movie.cpp(49): error C2597: illegal reference to non-static member 'Movie::avgRating'
+Movie.cpp(50): error C2352: 'Movie::update': illegal call of non-static member function
+  Movie.cpp(36): note: see declaration of 'Movie::update'
+Movie.cpp(56): error C2597: illegal reference to non-static member 'Movie::avgRating'
+Movie.cpp(56): error C3867: 'Movie::avgRating': non-standard syntax; use '&' to create a pointer to member
+Movie.cpp(57): error C2597: illegal reference to non-static member 'Movie::quantity'
+Movie.cpp(62): error C2597: illegal reference to non-static member 'Movie::avgRating'
+Movie.cpp(62): error C3867: 'Movie::avgRating': non-standard syntax; use '&' to create a pointer to member
+Movie.cpp(63): error C2671: 'Movie::calcAverage': static member functions do not have 'this' pointers
+Movie.cpp(63): error C2227: left of '->quantity' must point to class/struct/union/generic type
+  Review.cpp
+Review.cpp(9): error C2653: 'Review': is not a class or namespace name
+Review.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Review.cpp(11): error C2550: 'Review': constructor initializer lists are only allowed on constructor definitions
+Review.cpp(11): warning C4508: 'Review': function should return a value; 'void' return type assumed
+  Reviewer.cpp
+Reviewer.cpp(8): error C2653: 'Reviewer': is not a class or namespace name
+Reviewer.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Reviewer.cpp(10): error C2550: 'Reviewer': constructor initializer lists are only allowed on constructor definitions
+Reviewer.cpp(10): warning C4508: 'Reviewer': function should return a value; 'void' return type assumed
+Reviewer.cpp(12): error C2653: 'Reviewer': is not a class or namespace name
+Reviewer.cpp(14): error C2065: 'reviewCount': undeclared identifier
+Reviewer.cpp(16): error C2653: 'Reviewer': is not a class or namespace name
+Reviewer.cpp(18): error C2065: 'user': undeclared identifier
+Reviewer.cpp(18): error C2065: 'reviewCount': undeclared identifier
